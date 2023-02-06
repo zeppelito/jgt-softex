@@ -1,0 +1,126 @@
+header {
+    background: linear-gradient(white, blue);
+	padding: 20px 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caixa {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  nav a {
+	text-transform: uppercase;
+	color: rgb(43, 20, 20);
+	font-size: 22px;
+	font-weight: bold;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } 
+  
+  .titulo-centralizado {
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+	margin: 0 0 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  nav a:hover {
+	color: blue;
+	text-decoration: underline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .opcoes{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .opcoes li, .opcoes li {
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	vertical-align: bottom;
+	margin: 0 1.5%;
+	padding: 30px 10px;
+	box-sizing:	content-box;
+	border: 2px solid black;
+	border-radius: 10px;
+  }
+  
+  .opcoes li:hover, .opcoes li:hover {
+	border-color: blue;
+  }
+  
+  .opcoes li:active, .opcoes2 li:active {
+	border-color: cyan;
+  }
+  
+  .opcoes li:hover h2, .opcoes2 li:hover h2 {
+	font-size: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .opcoes h2, .opcoes h2 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .descricao, .opcoes2-descricao {
+	font-size: 15px;
+	padding: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .valor, .valor2 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+.principal {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: inline;
+	
+}
+
+.d1 {
+	font-weight: bold;
+	display: inline-block;
+	
+
+}
+
+.flex-container {
+	display: flex /* or inline flex */;
+	color: crimson;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: auto;
+	padding: 24px;
+	
+}
+
+.flex-container {
+    align-items: stretch flex-start  flex-end  center baseline;
+  }
+  
